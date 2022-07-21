@@ -1,0 +1,74 @@
+.ProductListContainer {
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.productsListPage {
+  height: auto;
+}
+
+.productsListsHeading {
+  margin: 3rem;
+  border-left: 7px solid green;
+  border-radius: 10px;
+  padding-left: 0.7rem;
+}
+
+.productsListsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productsListTable {
+  width: 92%;
+  margin: 1rem 1rem;
+}
+
+.productsListTable thead {
+  border-top: 1px solid rgb(0, 111, 0);
+  background-color: green;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.productsListTable th {
+  text-align: center;
+  padding-top: 10px;
+}
+.productsListTable tr {
+  border: 1px solid black;
+  height: 30px;
+}
+
+.productsListTable th p {
+  color: rgb(226, 226, 226);
+  font-size: 16px;
+}
+
+.productsListTable td {
+  padding-top: 10px;
+}
+
+.productsListTable td p {
+  font-size: medium;
+}
+
+.deleteProductBtn{
+  outline: none;
+  color: red;
+  border: none;
+  margin-left:1rem;
+}
+
+.editProductBtn{
+  color: rgb(61, 61, 61);
+}
+
+.editProductBtn:hover{
+  color: rgb(61, 61, 61);
+}

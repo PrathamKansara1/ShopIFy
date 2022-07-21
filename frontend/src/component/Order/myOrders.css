@@ -1,0 +1,67 @@
+.myOrderPage{
+  height: auto;
+}
+
+.myOrdersHeading{
+  margin: 3rem;
+  border-left: 7px solid green;
+  border-radius: 10px;
+  padding-left: 0.7rem;
+}
+
+.myOrdersContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myOrderTable{
+  width: 90vw;
+  margin: 1rem 1rem;
+}
+
+thead {
+  border-top: 1px solid rgb(0, 111, 0);
+  background-color: green;
+  border-radius: 10px;
+  height: 40px;
+}
+
+th{
+  text-align: center;
+  padding-top: 10px;
+}
+tr{
+  border: 1px solid black;
+  height: 30px;
+}
+
+th p {
+  color: rgb(226, 226, 226);
+  font-size: large;
+}
+
+td{
+  
+  padding-top: 10px;
+}
+
+td p{
+  font-size: medium;
+}
+
+@media screen and (max-width : 600px) {
+  .myOrdersHeading h1{
+    font-size: x-large;
+  }
+
+  th p{
+    font-size: x-small;
+    font-weight: 400;
+  }
+
+  td p{
+    font-size: x-small;
+  }
+  
+}
